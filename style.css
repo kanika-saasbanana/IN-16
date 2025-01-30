@@ -1,0 +1,170 @@
+* {
+    font-family : Arial;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box; /*border box- includes height and witdth of border within content  */
+  }
+
+canvas{
+  width:100% !important;
+  height:100% !important;
+}
+  #chart-container {
+    width: 100px; /* Set a smaller width */
+    height: 130px; /* Set a smaller height */
+    position: relative;
+  }
+  
+  #linechart {
+    width: 100% !important;
+    height: 100% !important;}
+
+   /* bar*/
+   #barchart-container 
+   {
+    width: 100px; /* Set a smaller width */
+    height: 150px; /* Set a smaller height */
+    position: relative;
+  }
+  #barchart {
+    width: 100% !important;
+    height: 100% !important;}
+
+  #doughnut-container 
+   {
+    width: 200px; /* Set a smaller width */
+    height: 250px; /* Set a smaller height */
+    position: relative;
+  }
+  #doughnut {
+    width: 100% !important;
+    height: 100% !important;}
+  
+  .doughnut-container{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    background-color: #f4f4f4;
+    height:100vh;
+    width:100%;
+
+  }
+   /* bar1*/
+   #barchart1-container
+   {
+    width: 250px; /* Set a smaller width */
+    height: 350px; /* Set a smaller height */
+    position: relative;
+  }
+  #barchart1 {
+    width: 100% !important;
+    height: 100% !important;} 
+  
+    #doughnut1 {
+      width: 100% !important;
+      height: 100% !important;}
+    
+    .doughnut1-container{
+      align-items:center;
+      justify-content:center;
+      display:flex;
+      background-color: #f4f4f4;
+      height:35vh;
+      width:100%;
+  
+    } 
+    #areachart-container {
+      width: 100px; /* Set a smaller width */
+      height: 90px; /* Set a smaller height */
+      position: relative;
+    }
+    
+    #areachart {
+      width: 100% !important;
+      height: 100% !important;}
+
+  body{
+    position : relative;
+    min-height: 100vh;
+    width:100%;
+    overflow-y:auto;
+  }
+  .sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:240px;
+    background: white;
+    padding:6px 14px;
+  }
+  .sidebar .logo_content .logo {
+    color:black;
+    display: flex;
+    height:50px;
+    width:100%;
+    align-items: cennter;
+  }
+  .logo_content .logo i{
+    font-size:28px;
+    margin-right: 5px;
+  }
+  .logo_content .logo-name{
+    font-size:20px;
+    font-weight:400;
+  }
+  .sidebar #dropdown-toggle{
+    position:absolute;
+    color:grey;
+    left:90%;
+    top:6px;
+    font-size:20px;
+    height:50px;
+    width:50px;
+    text-align:center;
+    line-height:50px;
+    transform:translateX(-50%)
+  
+  }
+  .sidebar ul{
+    margin-top:20px;
+  }
+  .sidebar ul li{
+    position: relative;
+    height:50px;
+    width:100%;
+    margin:0 5px;
+    list-style:none;
+    line-height:50px;
+  }
+  .sidebar ul li a{
+    color:rgb(41, 38, 38);
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    transition:all 0.4 ease 
+  } 
+  .sidebar ul li a:hover{
+    color:rgb(102, 171, 236);
+    background:rgb(179, 208, 248)
+  }
+  .sidebar ul li a i{
+    height:50 px;
+    min-width:30px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align:center
+  }
+  /* styling navbar */
+  .mainbar {
+    height : 60px;
+    background-color: rgb(11, 5, 5);
+    color: white;
+    border-color:grey;
+    padding: 0cm;
+  
+  }
+  .mainbar .searchbar{
+    text-align : center
+  }
+  
