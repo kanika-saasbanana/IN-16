@@ -1,0 +1,94 @@
+
+.p_img{
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+.planret-img img:hover{
+    opacity:0.3;
+}
+.p_para{
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    text-align:justify;
+    overflow:auto;/*clearfix-resolves the overflow of img and content */
+}
+.p_para::first-line{ /*pseudo-element*/
+    color:coral;
+}
+.planet-img img{
+    float:left;
+    width:320px;
+    height:290px;
+}
+/*flex
+#applyflex{
+    display:float;
+}
+.onebox{
+    float:left;
+}
+*/
+
+
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.who a{
+    background-color:white;
+    color:black !important; /*specificity */
+    border:2px solid green;
+    padding:5px 10px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+}
+.who a:hover{
+    background-color:green;
+    color:white;text-decoration:none;
+}
+th{
+    height:50px;
+
+}
+tr{
+    height:15px;
+}
+tr:hover{
+    background-color:rgb(59, 59, 46,0.3);
+}
+th,td,tr{
+    padding:5px;
+}
+ul{
+    list-style-type:none;
+
+}
+
+/*form*/
+form{
+    text-align: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=text]{ /*attribute selector*/
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:2px solid blue;
+    box-sizing: border-box;    
+}
+input[type=text]:focus {
+    background-color: rgb(198, 228, 239);
+  }
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }  
